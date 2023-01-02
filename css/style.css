@@ -3,6 +3,11 @@ body {
   background-color: #fefeff;
 }
 
+html {
+  scroll-behavior: smooth !important;
+
+}
+
 .layout_padding {
   padding: 75px 0;
 }
@@ -191,7 +196,7 @@ a:focus {
 }
 
 .hero_img-container {
-  width: 68%;
+  width: 55%;
   margin-right: -8%;
   margin-top: -5%;
 }
@@ -558,3 +563,9 @@ a:focus {
 
 
 /* end footer section*/
+
+
+
+.img-rounded {
+  border-radius: 24px;
+}
